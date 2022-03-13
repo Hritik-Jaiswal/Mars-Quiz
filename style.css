@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 :root{
-    --bg: #FF9D6F;
+    --sand: #FF9D6F;
     --light: #fae7e8;
     --dark: #663926;
     --darker: #140405;
     --text: #430e11;
-    --sand: #E27B58;
+    --bg: #E27B58;
     --ff-text: 'Quicksand', sans-serif;
 }
 
@@ -32,4 +32,26 @@ header p{
     color: var(--light);
     font-size: 2rem;
     font-weight: 700;
+}
+/* *Quiz */
+main .container h2{
+    padding-block: 1ch;
+}
+form{
+    margin-block: 30px;
+    padding: 15px;
+    background-color: var(--sand);
+}
+.question{
+    font-size: 3ch;
+    font-weight: 500;
+    margin-block: 10px;
+}
+.options{
+    font-size: 2.4ch;
+    font-weight: 400;
+}
+/* *submit button */
+.btn_holder{
+    margin-block: 20px;
 }
